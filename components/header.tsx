@@ -52,7 +52,7 @@ export default function Header() {
             ))}
             <ModeToggle />
             <Button asChild size="sm">
-              <Link href="./TejasTawde_Resume.pdf" target="_blank" rel="noopener noreferrer">
+              <Link href="/TejasTawde_Resume.pdf" target="_blank" rel="noopener noreferrer">
                 resume
               </Link>
             </Button>

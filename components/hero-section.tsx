@@ -34,7 +34,7 @@ export default function Hero() {
                 </Link>
               </Button>
               <Button asChild variant="outline" size="lg" className="glow-secondary">
-                <Link href="./TejasTawde_Resume.pdf" target="_blank" rel="noopener noreferrer">
+                <Link href="/TejasTawde_Resume.pdf" target="_blank" rel="noopener noreferrer">
                   View Resume
                 </Link>
               </Button>
