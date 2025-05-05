@@ -17,7 +17,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" suppressHydrationWarning>
       <head>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/dank-mono@latest/css/dank-mono.min.css" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="./favicon.ico" />
+        <base href="./" />
       </head>
       <body className={cn("min-h-screen bg-background font-sans antialiased", manrope.variable)}>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
