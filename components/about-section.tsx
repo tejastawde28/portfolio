@@ -13,7 +13,7 @@ export default function AboutSection() {
         <div className="lg:col-span-1">
           <div className="relative w-full h-[400px] rounded-lg overflow-hidden glow-border">
             <Image
-              src="/profile-pic.jpg?height=400&width=300"
+              src="/profile-pic.JPG"
               alt="Tejas Tawde"
               width={300}
               height={400}
